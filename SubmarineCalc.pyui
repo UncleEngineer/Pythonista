@@ -1,0 +1,162 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{162, 69}, {318, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{231, 274}, {150, 32}}",
+          "uuid" : "556B582A-A7BC-413A-8D89-041CD13A6D7B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "โปรแกรมคำนวนเรือดำน้ำ",
+          "font_size" : 25,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{110, 146}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label2",
+          "frame" : "{{231, 274}, {150, 32}}",
+          "uuid" : "8E1EBE9B-2DA3-4E45-97A9-143244729FAC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "ต้องการซื้อกี่ลำ",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{110, 186}, {346, 66}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "D4700526-C39D-4B8D-A91F-FEF1FF2A552D",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.764706,1.000000,1.000000,1.000000)",
+          "frame" : "{{206, 274}, {200, 32}}",
+          "secure" : false,
+          "border_color" : "RGBA(0.294118,0.294118,1.000000,1.000000)",
+          "tint_color" : "RGBA(0.735294,0.823529,1.000000,1.000000)",
+          "border_width" : 2,
+          "alignment" : "right",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "quantity",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{214, 371}, {154, 47}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "23E9BC6E-772D-43B3-AE24-DB058B3524E1",
+          "font_size" : 15,
+          "corner_radius" : 10,
+          "background_color" : "RGBA(0.666667,1.000000,0.500000,1.000000)",
+          "frame" : "{{266, 274}, {80, 32}}",
+          "border_color" : "RGBA(0.617647,0.872549,1.000000,1.000000)",
+          "border_width" : 2,
+          "title" : "คำนวณ",
+          "action" : "Calc",
+          "font_bold" : true,
+          "class" : "Button",
+          "image_name" : "iob:calculator_24",
+          "name" : "calc_button"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{35, 444}, {535, 66}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "result",
+          "text_color" : "RGBA(0.000000,0.504717,0.168239,1.000000)",
+          "frame" : "{{231, 274}, {150, 32}}",
+          "uuid" : "680435E5-1E9E-4CF6-93E1-A8FF56BE9C17",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "ผลลัพท์",
+          "font_size" : 27,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{110, 297}, {346, 66}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "D4700526-C39D-4B8D-A91F-FEF1FF2A552D",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.764706,1.000000,1.000000,1.000000)",
+          "frame" : "{{206, 274}, {200, 32}}",
+          "secure" : false,
+          "border_color" : "RGBA(0.294118,0.294118,1.000000,1.000000)",
+          "tint_color" : "RGBA(0.735294,0.823529,1.000000,1.000000)",
+          "border_width" : 2,
+          "alignment" : "right",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "discount",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{110, 260}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{231, 274}, {150, 32}}",
+          "uuid" : "8E1EBE9B-2DA3-4E45-97A9-143244729FAC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "ส่วนลดกี่เปอร์เซ็น",
+          "name" : "label2",
+          "font_size" : 18
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {612, 579}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

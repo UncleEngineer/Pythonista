@@ -1,0 +1,82 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{102, 380}, {447, 77}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "พิมพ์ข้อความตรงนี้",
+          "font_size" : 17,
+          "frame" : "{{223, 275}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "C4B1DF01-B60E-42E9-8035-1F836547ECDF",
+          "alignment" : "left",
+          "border_color" : "RGBA(0.452830,0.452830,0.452830,1.000000)",
+          "autocorrection_type" : "default",
+          "name" : "message",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{205, 483}, {218, 65}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CB84DE66-27C3-4F60-B766-02E076BF46D0",
+          "font_size" : 15,
+          "background_color" : "RGBA(0.735849,0.735849,0.735849,1.000000)",
+          "frame" : "{{283, 275}, {80, 32}}",
+          "tint_color" : "RGBA(0.429245,0.429245,0.429245,1.000000)",
+          "title" : "Send",
+          "action" : "SendButton",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "b_send",
+          "image_name" : "iob:arrow_right_b_32"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{102, 78}, {421, 212}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "47CEE13C-B054-45E2-B665-D7A6E96C8591",
+          "font_size" : 17,
+          "background_color" : "RGBA(0.794118,0.931373,1.000000,1.000000)",
+          "frame" : "{{223, 191}, {200, 200}}",
+          "editable" : true,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "history",
+          "flex" : "WH"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {646, 582}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
